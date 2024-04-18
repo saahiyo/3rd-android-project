@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="@color/white">
+
+	<ImageView
+		android:src="@drawable/splash"
+		android:layout_width="wrap_content"
+		android:layout_height="170dp"
+		android:layout_gravity="center"
+		android:layout_centerHorizontal="true"
+		android:layout_centerVertical="true"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="User Data"
+		android:layout_gravity="bottom"
+		android:layout_alignParentBottom="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginBottom="40dp"
+		android:fontFamily="@font/bald"
+		android:textSize="32sp"
+		android:id="@+id/splashTextView1"
+		android:textColor="#FFABABAB"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Made with ❤️ by : saahiyo"
+		android:layout_alignBottom="@id/splashTextView1"
+		android:layout_alignParentBottom="true"
+		android:fontFamily="@font/reglar"
+		android:layout_centerInParent="true"
+		android:layout_marginBottom="20dp"
+		android:textColor="#FFB8B8B8"/>
+
+</RelativeLayout>
+

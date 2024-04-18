@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:background="@color/primary"
+	android:padding="15dp">
+
+	<include
+		layout="@layout/appbar"
+		android:padding="1dp"/>
+
+    <include 
+        layout="@layout/tags"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="15dp"
+		android:background="@drawable/shadow"
+		android:layout_marginTop="20dp">
+
+		<ImageView
+			android:src="@drawable/image_2"
+			android:layout_width="30dp"
+			android:layout_height="30dp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Development"
+			android:textAppearance="?android:attr/textAppearanceLarge"
+			android:textStyle="bold"
+			android:layout_weight="1"
+			android:textColor="@color/dark"
+			android:layout_marginLeft="10dp"/>
+
+		<ImageView
+			android:src="@drawable/image_3"
+			android:layout_width="30dp"
+			android:layout_height="30dp"/>
+
+	</LinearLayout>
+
+	<include
+		layout="@layout/databar"
+		android:id="@+id/data1"/>
+
+	<include
+		layout="@layout/databar"
+		android:id="@+id/data2"/>
+
+	<include
+		layout="@layout/databar"
+		android:id="@+id/data3"/>
+
+	<include
+		layout="@layout/databar"
+		android:id="@+id/data4"/>
+
+	<include
+		layout="@layout/databar"
+		android:id="@+id/data5"/>
+
+	<include
+		layout="@layout/databar"
+		android:id="@+id/data6"/>
+
+	<include
+		layout="@layout/databar"
+		android:id="@+id/data7"/>
+
+</LinearLayout>
+

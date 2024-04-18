@@ -1,0 +1,6 @@
+# view AndroidManifest.xml #generated:36
+-keep class com.mycy.myapp.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:20
+-keep class com.mycy.myapp.splash { <init>(...); }
+
