@@ -21,7 +21,8 @@ Every features on this and learning ot it practically.
 
 ## Screenshots
 
-Include screenshots or GIFs showcasing the app's UI and features.
+![Screenshot](https://github.com/saahiyo/3rd-android-project/assets/81853097/b4e91ced-ac0c-4f7b-bba3-da4dcfef3f81)
+
 
 ## Getting Started
 
